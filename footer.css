@@ -1,0 +1,17 @@
+.footer .row [style="width:18rem"] {
+    margin: 40px 0;
+}
+
+.footer .form-group {
+    margin-top: 40px;
+}
+
+@media (max-width:1300px) {
+    .footer .form-group {
+        width: 100% !important;
+        /* background-color: tomato; */
+    }
+    .form-group input {
+        width: 80%;
+    }
+}

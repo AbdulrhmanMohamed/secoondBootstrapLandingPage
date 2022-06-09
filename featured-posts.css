@@ -1,0 +1,29 @@
+.featured-posts figure {
+    margin: 20px 0;
+    flex-basis: 48%;
+    gap: 20px;
+}
+
+.featured-posts figure img {
+    border-radius: 10px;
+}
+
+.featured-posts figcaption {
+    padding: 20px 0;
+}
+
+.featured-posts a {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.featured-posts figcaption a:last-of-type {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .featured-posts figure {
+        flex-basis: 100%;
+    }
+}

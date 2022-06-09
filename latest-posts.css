@@ -1,0 +1,35 @@
+.latest-posts figure {
+    margin: 20px 0;
+    flex-basis: 23%;
+    gap: 20px;
+}
+
+.latest-posts figure img {
+    border-radius: 10px;
+}
+
+.latest-posts figcaption {
+    padding: 20px 0;
+}
+
+.latest-posts a {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.latest-posts figcaption a:last-of-type {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+    .latest-posts figure {
+        flex-basis: 48%;
+    }
+}
+
+@media (max-width: 768px) {
+    .latest-posts figure {
+        flex-basis: 100%;
+    }
+}
